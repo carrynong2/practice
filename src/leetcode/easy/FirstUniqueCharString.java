@@ -1,7 +1,4 @@
-package leetcode;
-
-import java.util.HashSet;
-import java.util.Set;
+package leetcode.easy;
 
 public class FirstUniqueCharString {
     static void main() {

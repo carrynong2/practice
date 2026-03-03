@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.easy;
 
 public class ReverseString {
     static void main() {
