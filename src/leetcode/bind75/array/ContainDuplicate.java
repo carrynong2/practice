@@ -1,4 +1,4 @@
-package leetcode.bind75;
+package leetcode.bind75.array;
 
 import java.util.HashMap;
 import java.util.Map;

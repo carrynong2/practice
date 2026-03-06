@@ -1,4 +1,4 @@
-package leetcode.bind75;
+package leetcode.bind75.string;
 
 public class LongestSubStringWithoutRepeatChat {
     static void main() {

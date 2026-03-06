@@ -1,4 +1,4 @@
-package leetcode.bind75;
+package leetcode.bind75.array;
 
 public class MaximumSubarray {
     static void main() {
