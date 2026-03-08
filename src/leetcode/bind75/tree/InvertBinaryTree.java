@@ -1,4 +1,4 @@
-package leetcode.easy;
+package leetcode.bind75.tree;
 
 public class InvertBinaryTree {
     static void main() {
@@ -9,7 +9,7 @@ public class InvertBinaryTree {
         root.left.right = new TreeNode(3);
         root.right.left = new TreeNode(6);
         root.right.right = new TreeNode(9);
-         TreeNode res =  invertTree(root);
+        TreeNode res =  invertTree(root);
         System.out.printf("res: %d", res.val);
     }
     public static TreeNode invertTree(TreeNode root) {
@@ -23,15 +23,15 @@ public class InvertBinaryTree {
         return root;
     }
     public static class TreeNode {
-      int val;
-      TreeNode left;
-      TreeNode right;
-      TreeNode() {}
-      TreeNode(int val) { this.val = val; }
-      TreeNode(int val, TreeNode left, TreeNode right) {
-          this.val = val;
-          this.left = left;
-          this.right = right;
-      }
-  }
+        int val;
+        TreeNode left;
+        TreeNode right;
+        TreeNode() {}
+        TreeNode(int val) { this.val = val; }
+        TreeNode(int val, TreeNode left, TreeNode right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
+    }
 }

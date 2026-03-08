@@ -1,4 +1,4 @@
-package leetcode.easy;
+package leetcode.bind75.binary;
 
 public class ReverseBit {
     static void main() {
